@@ -9,7 +9,7 @@
 
 <!-- ─── TYPING SVG  (demolab, text-safe URL, no raw emojis/apostrophes) ─── -->
 <div align="center">
-  <img src="./flame_typing.svg" width="100%" alt=""/>
+  <img src="./flame_tping.svg" width="100%" alt=""/>
 </div>
 
 <br/>
