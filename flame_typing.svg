@@ -1,0 +1,399 @@
+<svg viewBox="0 0 750 52" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="tg" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   stop-color="#fff8ee"/>
+    <stop offset="30%"  stop-color="#ffd580"/>
+    <stop offset="65%"  stop-color="#ff8c00"/>
+    <stop offset="100%" stop-color="#cc2200"/>
+  </linearGradient>
+  <linearGradient id="tgd" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   stop-color="#ffcc60" stop-opacity="0.55"/>
+    <stop offset="100%" stop-color="#aa2200" stop-opacity="0.28"/>
+  </linearGradient>
+  <filter id="fg" x="-25%" y="-80%" width="150%" height="260%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="b1"/>
+    <feGaussianBlur in="SourceAlpha" stdDeviation="9" result="b2"/>
+    <feFlood flood-color="#ff6600" flood-opacity="0.85" result="c1"/>
+    <feFlood flood-color="#ff2200" flood-opacity="0.50" result="c2"/>
+    <feComposite in="c1" in2="b1" operator="in" result="g1"/>
+    <feComposite in="c2" in2="b2" operator="in" result="g2"/>
+    <feMerge><feMergeNode in="g2"/><feMergeNode in="g1"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="eg" x="-400%" y="-400%" width="900%" height="900%">
+    <feGaussianBlur stdDeviation="2.5"/>
+  </filter>
+</defs>
+<rect width="750" height="52" fill="#08000c"/>
+
+  <!-- L1 -->
+  <text x="375" y="33" font-family="'MS Gothic','Noto Sans JP',serif"
+    font-size="16" text-anchor="middle" fill="url(#tgd)" filter="url(#fg)" opacity="0">
+    炎 剣 士 龍 火 影 魂 刃 烈 焔 鬼 滅
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.0000;0.0025;0.0067;0.0108;0.0150;0.0183;1.0000" values="0;0;0.65;0.15;0.55;0.12;0;0" dur="60s" repeatCount="indefinite"/>
+  </text>
+  <g>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.0683;0.0750;0.0808;0.0833;1.0000" values="0 0;0 0;0 -8;0 -18;0 -26;0 0" dur="60s" repeatCount="indefinite"/>
+    <text x="375" y="33" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+      font-size="17" font-weight="700" letter-spacing="0.8"
+      text-anchor="middle" fill="url(#tg)" filter="url(#fg)" opacity="0">
+      🥇  International 1st Prize — Baidu 2026
+      <animate attributeName="opacity" calcMode="linear"
+        keyTimes="0.0000;0.0150;0.0283;0.0683;0.0750;0.0808;0.0833;1.0000" values="0;0;1;1;0.65;0.15;0;0" dur="60s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <circle cx="195" cy="34" r="2.2" fill="#ffdd50" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.0667;0.0700;0.0767;0.0833;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.0667;0.0750;0.0833;1.0000" values="0 0;0 0;-10 -18;-18 -30;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="555" cy="32" r="2" fill="#ffaa20" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.0667;0.0700;0.0767;0.0833;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.0667;0.0750;0.0833;1.0000" values="0 0;0 0;12 -15;20 -26;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- L2 -->
+  <text x="375" y="33" font-family="'MS Gothic','Noto Sans JP',serif"
+    font-size="16" text-anchor="middle" fill="url(#tgd)" filter="url(#fg)" opacity="0">
+    一 位 国 際 賞 百 度 優 勝 者 二 六
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.0833;0.0858;0.0900;0.0942;0.0983;0.1017;1.0000" values="0;0;0.65;0.15;0.55;0.12;0;0" dur="60s" repeatCount="indefinite"/>
+  </text>
+  <g>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.1517;0.1583;0.1642;0.1667;1.0000" values="0 0;0 0;0 -8;0 -18;0 -26;0 0" dur="60s" repeatCount="indefinite"/>
+    <text x="375" y="33" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+      font-size="17" font-weight="700" letter-spacing="0.8"
+      text-anchor="middle" fill="url(#tg)" filter="url(#fg)" opacity="0">
+      🥇  National 1st Prize — ISRO BAH'25
+      <animate attributeName="opacity" calcMode="linear"
+        keyTimes="0.0000;0.0983;0.1117;0.1517;0.1583;0.1642;0.1667;1.0000" values="0;0;1;1;0.65;0.15;0;0" dur="60s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <circle cx="195" cy="34" r="2.2" fill="#ffdd50" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.1500;0.1533;0.1600;0.1667;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.1500;0.1583;0.1667;1.0000" values="0 0;0 0;-10 -18;-18 -30;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="555" cy="32" r="2" fill="#ffaa20" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.1500;0.1533;0.1600;0.1667;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.1500;0.1583;0.1667;1.0000" values="0 0;0 0;12 -15;20 -26;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- L3 -->
+  <text x="375" y="33" font-family="'MS Gothic','Noto Sans JP',serif"
+    font-size="16" text-anchor="middle" fill="url(#tgd)" filter="url(#fg)" opacity="0">
+    宇 宙 研 究 所 全 国 第 一 位 航 天
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.1667;0.1692;0.1733;0.1775;0.1817;0.1850;1.0000" values="0;0;0.65;0.15;0.55;0.12;0;0" dur="60s" repeatCount="indefinite"/>
+  </text>
+  <g>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.2350;0.2417;0.2475;0.2500;1.0000" values="0 0;0 0;0 -8;0 -18;0 -26;0 0" dur="60s" repeatCount="indefinite"/>
+    <text x="375" y="33" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+      font-size="17" font-weight="700" letter-spacing="0.8"
+      text-anchor="middle" fill="url(#tg)" filter="url(#fg)" opacity="0">
+      🛰️  Physics-Informed Neural Networks @ ISRO
+      <animate attributeName="opacity" calcMode="linear"
+        keyTimes="0.0000;0.1817;0.1950;0.2350;0.2417;0.2475;0.2500;1.0000" values="0;0;1;1;0.65;0.15;0;0" dur="60s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <circle cx="195" cy="34" r="2.2" fill="#ffdd50" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.2333;0.2367;0.2433;0.2500;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.2333;0.2417;0.2500;1.0000" values="0 0;0 0;-10 -18;-18 -30;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="555" cy="32" r="2" fill="#ffaa20" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.2333;0.2367;0.2433;0.2500;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.2333;0.2417;0.2500;1.0000" values="0 0;0 0;12 -15;20 -26;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- L4 -->
+  <text x="375" y="33" font-family="'MS Gothic','Noto Sans JP',serif"
+    font-size="16" text-anchor="middle" fill="url(#tgd)" filter="url(#fg)" opacity="0">
+    代 理 人 工 智 能 机 器 学 习 工 程
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.2500;0.2525;0.2567;0.2608;0.2650;0.2683;1.0000" values="0;0;0.65;0.15;0.55;0.12;0;0" dur="60s" repeatCount="indefinite"/>
+  </text>
+  <g>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.3183;0.3250;0.3308;0.3333;1.0000" values="0 0;0 0;0 -8;0 -18;0 -26;0 0" dur="60s" repeatCount="indefinite"/>
+    <text x="375" y="33" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+      font-size="17" font-weight="700" letter-spacing="0.8"
+      text-anchor="middle" fill="url(#tg)" filter="url(#fg)" opacity="0">
+      🤖  Agentic AI — LangGraph · RAG · LangChain
+      <animate attributeName="opacity" calcMode="linear"
+        keyTimes="0.0000;0.2650;0.2783;0.3183;0.3250;0.3308;0.3333;1.0000" values="0;0;1;1;0.65;0.15;0;0" dur="60s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <circle cx="195" cy="34" r="2.2" fill="#ffdd50" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.3167;0.3200;0.3267;0.3333;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.3167;0.3250;0.3333;1.0000" values="0 0;0 0;-10 -18;-18 -30;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="555" cy="32" r="2" fill="#ffaa20" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.3167;0.3200;0.3267;0.3333;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.3167;0.3250;0.3333;1.0000" values="0 0;0 0;12 -15;20 -26;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- L5 -->
+  <text x="375" y="33" font-family="'MS Gothic','Noto Sans JP',serif"
+    font-size="16" text-anchor="middle" fill="url(#tgd)" filter="url(#fg)" opacity="0">
+    炎 柱 水 柱 霞 柱 岩 柱 蛇 柱 音 柱
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.3333;0.3358;0.3400;0.3442;0.3483;0.3517;1.0000" values="0;0;0.65;0.15;0.55;0.12;0;0" dur="60s" repeatCount="indefinite"/>
+  </text>
+  <g>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.4017;0.4083;0.4142;0.4167;1.0000" values="0 0;0 0;0 -8;0 -18;0 -26;0 0" dur="60s" repeatCount="indefinite"/>
+    <text x="375" y="33" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+      font-size="17" font-weight="700" letter-spacing="0.8"
+      text-anchor="middle" fill="url(#tg)" filter="url(#fg)" opacity="0">
+      ⚡  Intern @ ConnectHEOR, London (2026)
+      <animate attributeName="opacity" calcMode="linear"
+        keyTimes="0.0000;0.3483;0.3617;0.4017;0.4083;0.4142;0.4167;1.0000" values="0;0;1;1;0.65;0.15;0;0" dur="60s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <circle cx="195" cy="34" r="2.2" fill="#ffdd50" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.4000;0.4033;0.4100;0.4167;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.4000;0.4083;0.4167;1.0000" values="0 0;0 0;-10 -18;-18 -30;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="555" cy="32" r="2" fill="#ffaa20" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.4000;0.4033;0.4100;0.4167;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.4000;0.4083;0.4167;1.0000" values="0 0;0 0;12 -15;20 -26;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- L6 -->
+  <text x="375" y="33" font-family="'MS Gothic','Noto Sans JP',serif"
+    font-size="16" text-anchor="middle" fill="url(#tgd)" filter="url(#fg)" opacity="0">
+    亚 马 逊 挑 战 全 国 七 十 强 者 荣
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.4167;0.4192;0.4233;0.4275;0.4317;0.4350;1.0000" values="0;0;0.65;0.15;0.55;0.12;0;0" dur="60s" repeatCount="indefinite"/>
+  </text>
+  <g>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.4850;0.4917;0.4975;0.5000;1.0000" values="0 0;0 0;0 -8;0 -18;0 -26;0 0" dur="60s" repeatCount="indefinite"/>
+    <text x="375" y="33" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+      font-size="17" font-weight="700" letter-spacing="0.8"
+      text-anchor="middle" fill="url(#tg)" filter="url(#fg)" opacity="0">
+      🏅  Amazon ML Challenge — National Rank 70
+      <animate attributeName="opacity" calcMode="linear"
+        keyTimes="0.0000;0.4317;0.4450;0.4850;0.4917;0.4975;0.5000;1.0000" values="0;0;1;1;0.65;0.15;0;0" dur="60s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <circle cx="195" cy="34" r="2.2" fill="#ffdd50" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.4833;0.4867;0.4933;0.5000;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.4833;0.4917;0.5000;1.0000" values="0 0;0 0;-10 -18;-18 -30;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="555" cy="32" r="2" fill="#ffaa20" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.4833;0.4867;0.4933;0.5000;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.4833;0.4917;0.5000;1.0000" values="0 0;0 0;12 -15;20 -26;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- L7 -->
+  <text x="375" y="33" font-family="'MS Gothic','Noto Sans JP',serif"
+    font-size="16" text-anchor="middle" fill="url(#tgd)" filter="url(#fg)" opacity="0">
+    向 量 数 据 库 检 索 增 强 生 成 技
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.5000;0.5025;0.5067;0.5108;0.5150;0.5183;1.0000" values="0;0;0.65;0.15;0.55;0.12;0;0" dur="60s" repeatCount="indefinite"/>
+  </text>
+  <g>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.5683;0.5750;0.5808;0.5833;1.0000" values="0 0;0 0;0 -8;0 -18;0 -26;0 0" dur="60s" repeatCount="indefinite"/>
+    <text x="375" y="33" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+      font-size="17" font-weight="700" letter-spacing="0.8"
+      text-anchor="middle" fill="url(#tg)" filter="url(#fg)" opacity="0">
+      🚀  RAG · Pinecone · FastAPI · AWS · Docker
+      <animate attributeName="opacity" calcMode="linear"
+        keyTimes="0.0000;0.5150;0.5283;0.5683;0.5750;0.5808;0.5833;1.0000" values="0;0;1;1;0.65;0.15;0;0" dur="60s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <circle cx="195" cy="34" r="2.2" fill="#ffdd50" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.5667;0.5700;0.5767;0.5833;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.5667;0.5750;0.5833;1.0000" values="0 0;0 0;-10 -18;-18 -30;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="555" cy="32" r="2" fill="#ffaa20" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.5667;0.5700;0.5767;0.5833;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.5667;0.5750;0.5833;1.0000" values="0 0;0 0;12 -15;20 -26;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- L8 -->
+  <text x="375" y="33" font-family="'MS Gothic','Noto Sans JP',serif"
+    font-size="16" text-anchor="middle" fill="url(#tgd)" filter="url(#fg)" opacity="0">
+    百 度 文 字 识 别 模 型 精 度 提 升
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.5833;0.5858;0.5900;0.5942;0.5983;0.6017;1.0000" values="0;0;0.65;0.15;0.55;0.12;0;0" dur="60s" repeatCount="indefinite"/>
+  </text>
+  <g>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.6517;0.6583;0.6642;0.6667;1.0000" values="0 0;0 0;0 -8;0 -18;0 -26;0 0" dur="60s" repeatCount="indefinite"/>
+    <text x="375" y="33" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+      font-size="17" font-weight="700" letter-spacing="0.8"
+      text-anchor="middle" fill="url(#tg)" filter="url(#fg)" opacity="0">
+      🔬  76× CER Improvement — Baidu NaViT Model
+      <animate attributeName="opacity" calcMode="linear"
+        keyTimes="0.0000;0.5983;0.6117;0.6517;0.6583;0.6642;0.6667;1.0000" values="0;0;1;1;0.65;0.15;0;0" dur="60s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <circle cx="195" cy="34" r="2.2" fill="#ffdd50" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.6500;0.6533;0.6600;0.6667;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.6500;0.6583;0.6667;1.0000" values="0 0;0 0;-10 -18;-18 -30;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="555" cy="32" r="2" fill="#ffaa20" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.6500;0.6533;0.6600;0.6667;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.6500;0.6583;0.6667;1.0000" values="0 0;0 0;12 -15;20 -26;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- L9 -->
+  <text x="375" y="33" font-family="'MS Gothic','Noto Sans JP',serif"
+    font-size="16" text-anchor="middle" fill="url(#tgd)" filter="url(#fg)" opacity="0">
+    多 智 能 体 编 排 语 言 模 型 工 具
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.6667;0.6692;0.6733;0.6775;0.6817;0.6850;1.0000" values="0;0;0.65;0.15;0.55;0.12;0;0" dur="60s" repeatCount="indefinite"/>
+  </text>
+  <g>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.7350;0.7417;0.7475;0.7500;1.0000" values="0 0;0 0;0 -8;0 -18;0 -26;0 0" dur="60s" repeatCount="indefinite"/>
+    <text x="375" y="33" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+      font-size="17" font-weight="700" letter-spacing="0.8"
+      text-anchor="middle" fill="url(#tg)" filter="url(#fg)" opacity="0">
+      🧠  Multi-Agent Orchestration · LLM Tool-Use
+      <animate attributeName="opacity" calcMode="linear"
+        keyTimes="0.0000;0.6817;0.6950;0.7350;0.7417;0.7475;0.7500;1.0000" values="0;0;1;1;0.65;0.15;0;0" dur="60s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <circle cx="195" cy="34" r="2.2" fill="#ffdd50" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.7333;0.7367;0.7433;0.7500;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.7333;0.7417;0.7500;1.0000" values="0 0;0 0;-10 -18;-18 -30;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="555" cy="32" r="2" fill="#ffaa20" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.7333;0.7367;0.7433;0.7500;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.7333;0.7417;0.7500;1.0000" values="0 0;0 0;12 -15;20 -26;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- L10 -->
+  <text x="375" y="33" font-family="'MS Gothic','Noto Sans JP',serif"
+    font-size="16" text-anchor="middle" fill="url(#tgd)" filter="url(#fg)" opacity="0">
+    深 度 学 习 视 觉 模 型 训 练 评 估
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.7500;0.7525;0.7567;0.7608;0.7650;0.7683;1.0000" values="0;0;0.65;0.15;0.55;0.12;0;0" dur="60s" repeatCount="indefinite"/>
+  </text>
+  <g>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.8183;0.8250;0.8308;0.8333;1.0000" values="0 0;0 0;0 -8;0 -18;0 -26;0 0" dur="60s" repeatCount="indefinite"/>
+    <text x="375" y="33" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+      font-size="17" font-weight="700" letter-spacing="0.8"
+      text-anchor="middle" fill="url(#tg)" filter="url(#fg)" opacity="0">
+      🎯  Full-Stack AI: PyTorch · OpenAI · Oracle Cloud
+      <animate attributeName="opacity" calcMode="linear"
+        keyTimes="0.0000;0.7650;0.7783;0.8183;0.8250;0.8308;0.8333;1.0000" values="0;0;1;1;0.65;0.15;0;0" dur="60s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <circle cx="195" cy="34" r="2.2" fill="#ffdd50" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.8167;0.8200;0.8267;0.8333;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.8167;0.8250;0.8333;1.0000" values="0 0;0 0;-10 -18;-18 -30;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="555" cy="32" r="2" fill="#ffaa20" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.8167;0.8200;0.8267;0.8333;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.8167;0.8250;0.8333;1.0000" values="0 0;0 0;12 -15;20 -26;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- L11 -->
+  <text x="375" y="33" font-family="'MS Gothic','Noto Sans JP',serif"
+    font-size="16" text-anchor="middle" fill="url(#tgd)" filter="url(#fg)" opacity="0">
+    新 德 里 大 学 第 三 名 学 业 成 绩
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.8333;0.8358;0.8400;0.8442;0.8483;0.8517;1.0000" values="0;0;0.65;0.15;0.55;0.12;0;0" dur="60s" repeatCount="indefinite"/>
+  </text>
+  <g>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.9017;0.9083;0.9142;0.9167;1.0000" values="0 0;0 0;0 -8;0 -18;0 -26;0 0" dur="60s" repeatCount="indefinite"/>
+    <text x="375" y="33" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+      font-size="17" font-weight="700" letter-spacing="0.8"
+      text-anchor="middle" fill="url(#tg)" filter="url(#fg)" opacity="0">
+      📍  New Delhi · CGPA 9.412 · Uni Rank 3
+      <animate attributeName="opacity" calcMode="linear"
+        keyTimes="0.0000;0.8483;0.8617;0.9017;0.9083;0.9142;0.9167;1.0000" values="0;0;1;1;0.65;0.15;0;0" dur="60s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <circle cx="195" cy="34" r="2.2" fill="#ffdd50" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.9000;0.9033;0.9100;0.9167;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.9000;0.9083;0.9167;1.0000" values="0 0;0 0;-10 -18;-18 -30;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="555" cy="32" r="2" fill="#ffaa20" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.9000;0.9033;0.9100;0.9167;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.9000;0.9083;0.9167;1.0000" values="0 0;0 0;12 -15;20 -26;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- L12 -->
+  <text x="375" y="33" font-family="'MS Gothic','Noto Sans JP',serif"
+    font-size="16" text-anchor="middle" fill="url(#tgd)" filter="url(#fg)" opacity="0">
+    传 奇 人 工 智 能 工 程 师 新 德 里
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.9167;0.9192;0.9233;0.9275;0.9317;0.9350;1.0000" values="0;0;0.65;0.15;0.55;0.12;0;0" dur="60s" repeatCount="indefinite"/>
+  </text>
+  <g>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.9850;0.9917;0.9975;1.0000;1.0000" values="0 0;0 0;0 -8;0 -18;0 -26;0 0" dur="60s" repeatCount="indefinite"/>
+    <text x="375" y="33" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+      font-size="17" font-weight="700" letter-spacing="0.8"
+      text-anchor="middle" fill="url(#tg)" filter="url(#fg)" opacity="0">
+      ✨  Open to AI/ML Roles — Let's build something
+      <animate attributeName="opacity" calcMode="linear"
+        keyTimes="0.0000;0.9317;0.9450;0.9850;0.9917;0.9975;1.0000;1.0000" values="0;0;1;1;0.65;0.15;0;0" dur="60s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <circle cx="195" cy="34" r="2.2" fill="#ffdd50" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.9833;0.9867;0.9933;1.0000;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.9833;0.9917;1.0000;1.0000" values="0 0;0 0;-10 -18;-18 -30;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="555" cy="32" r="2" fill="#ffaa20" filter="url(#eg)" opacity="0">
+    <animate attributeName="opacity" calcMode="linear"
+      keyTimes="0.0000;0.9833;0.9867;0.9933;1.0000;1.0000" values="0;0;1;0.5;0;0" dur="60s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" additive="replace"
+      calcMode="linear" keyTimes="0.0000;0.9833;0.9917;1.0000;1.0000" values="0 0;0 0;12 -15;20 -26;0 0" dur="60s" repeatCount="indefinite"/>
+  </circle>
+</svg>
